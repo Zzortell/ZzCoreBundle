@@ -10,6 +10,7 @@
 		 || b.isBrowser('Firefox', 			'<', '38')
 		 || b.isBrowser('Opera', 			'<', '29')
 		 || b.isBrowser('Safari', 			'<', '8' )
+		 || window.location.hash === '#debug'
 		) {
 			browser_warning.style.display = 'block';
 		}
